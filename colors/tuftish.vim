@@ -26,14 +26,14 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi String ctermbg=7 ctermfg=12 cterm=NONE guibg=#fdfbf4 guifg=#218cff gui=NONE
     hi Number ctermbg=7 ctermfg=0 cterm=NONE guibg=#fdfbf4 guifg=#333333 gui=NONE
     hi Todo ctermbg=7 ctermfg=0 cterm=NONE guibg=#fdfbf4 guifg=#333333 gui=NONE
-    hi Type ctermbg=7 ctermfg=0 cterm=NONE guibg=#fdfbf4 guifg=#333333 gui=NONE
+    hi Type ctermbg=7 ctermfg=0 cterm=bold guibg=#fdfbf4 guifg=#333333 gui=bold
     hi Underlined ctermbg=7 ctermfg=0 cterm=NONE guibg=#fdfbf4 guifg=#333333 gui=NONE
     hi StatusLine ctermbg=7 ctermfg=8 cterm=italic guibg=#fdfbf4 guifg=#c0c0c0 gui=italic
     hi StatusLineNC ctermbg=7 ctermfg=0 cterm=NONE guibg=#fdfbf4 guifg=#333333 gui=NONE
     hi VertSplit ctermbg=7 ctermfg=0 cterm=NONE guibg=#fdfbf4 guifg=#333333 gui=NONE
-    hi TabLine ctermbg=7 ctermfg=8 cterm=NONE guibg=#fdfbf4 guifg=#c0c0c0 gui=NONE
-    hi TabLineFill ctermbg=7 ctermfg=8 cterm=NONE guibg=#fdfbf4 guifg=#c0c0c0 gui=NONE
-    hi TabLineSel ctermbg=7 ctermfg=1 cterm=NONE guibg=#fdfbf4 guifg=#cb1a00 gui=NONE
+    hi TabLine ctermbg=7 ctermfg=8 cterm=bold guibg=#fdfbf4 guifg=#c0c0c0 gui=bold
+    hi TabLineFill ctermbg=7 ctermfg=8 cterm=bold guibg=#fdfbf4 guifg=#c0c0c0 gui=bold
+    hi TabLineSel ctermbg=7 ctermfg=1 cterm=bold guibg=#fdfbf4 guifg=#cb1a00 gui=bold
     hi Title ctermbg=7 ctermfg=0 cterm=NONE guibg=#fdfbf4 guifg=#333333 gui=NONE
     hi CursorLine ctermbg=7 ctermfg=0 cterm=NONE guibg=#fdfbf4 guifg=#333333 gui=NONE
     hi LineNr ctermbg=7 ctermfg=8 cterm=italic guibg=#fdfbf4 guifg=#c0c0c0 gui=italic
@@ -87,14 +87,14 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi String ctermbg=white ctermfg=brightblue cterm=NONE
     hi Number ctermbg=white ctermfg=black cterm=NONE
     hi Todo ctermbg=white ctermfg=black cterm=NONE
-    hi Type ctermbg=white ctermfg=black cterm=NONE
+    hi Type ctermbg=white ctermfg=black cterm=bold
     hi Underlined ctermbg=white ctermfg=black cterm=NONE
     hi StatusLine ctermbg=white ctermfg=brightblack cterm=italic
     hi StatusLineNC ctermbg=white ctermfg=black cterm=NONE
     hi VertSplit ctermbg=white ctermfg=black cterm=NONE
-    hi TabLine ctermbg=white ctermfg=brightblack cterm=NONE
-    hi TabLineFill ctermbg=white ctermfg=brightblack cterm=NONE
-    hi TabLineSel ctermbg=white ctermfg=red cterm=NONE
+    hi TabLine ctermbg=white ctermfg=brightblack cterm=bold
+    hi TabLineFill ctermbg=white ctermfg=brightblack cterm=bold
+    hi TabLineSel ctermbg=white ctermfg=red cterm=bold
     hi Title ctermbg=white ctermfg=black cterm=NONE
     hi CursorLine ctermbg=white ctermfg=black cterm=NONE
     hi LineNr ctermbg=white ctermfg=brightblack cterm=italic
