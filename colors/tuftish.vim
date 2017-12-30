@@ -24,7 +24,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi Special ctermbg=7 ctermfg=0 cterm=NONE guibg=#fdfbf4 guifg=#333333 gui=NONE
     hi Statement ctermbg=7 ctermfg=0 cterm=NONE guibg=#fdfbf4 guifg=#333333 gui=NONE
     hi String ctermbg=7 ctermfg=0 cterm=NONE guibg=#fdfbf4 guifg=#333333 gui=NONE
-    hi Number ctermbg=7 ctermfg=0 cterm=NONE guibg=#fdfbf4 guifg=#333333 gui=NONE
+    hi Number ctermbg=14 ctermfg=0 cterm=NONE guibg=#728baf guifg=#333333 gui=NONE
     hi Todo ctermbg=7 ctermfg=0 cterm=NONE guibg=#fdfbf4 guifg=#333333 gui=NONE
     hi Type ctermbg=7 ctermfg=0 cterm=NONE guibg=#fdfbf4 guifg=#333333 gui=NONE
     hi NONEd ctermbg=7 ctermfg=0 cterm=NONE guibg=#fdfbf4 guifg=#333333 gui=NONE
@@ -85,7 +85,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi Special ctermbg=white ctermfg=black cterm=NONE
     hi Statement ctermbg=white ctermfg=black cterm=NONE
     hi String ctermbg=white ctermfg=black cterm=NONE
-    hi Number ctermbg=white ctermfg=black cterm=NONE
+    hi Number ctermbg=brightcyan ctermfg=black cterm=NONE
     hi Todo ctermbg=white ctermfg=black cterm=NONE
     hi Type ctermbg=white ctermfg=black cterm=NONE
     hi NONEd ctermbg=white ctermfg=black cterm=NONE
