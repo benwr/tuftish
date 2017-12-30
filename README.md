@@ -8,5 +8,5 @@ and inspired by the [Tufte-Jekyll](https://github.com/clayh53/tufte-jekyll) them
 
 Requires a vim setup with true color (shown below in iTerm2).
 
-![](screenshot.png)
+![](tuftish.png)
 
