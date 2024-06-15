@@ -19,6 +19,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi Constant ctermbg=7 ctermfg=0 cterm=NONE guibg=#fdfbf4 guifg=#333333 gui=NONE
     hi Error ctermbg=7 ctermfg=0 cterm=NONE guibg=#fdfbf4 guifg=#333333 gui=NONE
     hi Identifier ctermbg=7 ctermfg=0 cterm=NONE guibg=#fdfbf4 guifg=#333333 gui=NONE
+    hi Function ctermbg=7 ctermfg=0 cterm=NONE guibg=#fdfbf4 guifg=#333333 gui=NONE
     hi Ignore ctermbg=7 ctermfg=0 cterm=NONE guibg=#fdfbf4 guifg=#333333 gui=NONE
     hi PreProc ctermbg=7 ctermfg=0 cterm=NONE guibg=#fdfbf4 guifg=#333333 gui=NONE
     hi Special ctermbg=7 ctermfg=0 cterm=NONE guibg=#fdfbf4 guifg=#333333 gui=NONE
@@ -80,6 +81,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi Constant ctermbg=white ctermfg=black cterm=NONE
     hi Error ctermbg=white ctermfg=black cterm=NONE
     hi Identifier ctermbg=white ctermfg=black cterm=NONE
+    hi Function ctermbg=white ctermfg=black cterm=NONE
     hi Ignore ctermbg=white ctermfg=black cterm=NONE
     hi PreProc ctermbg=white ctermfg=black cterm=NONE
     hi Special ctermbg=white ctermfg=black cterm=NONE
